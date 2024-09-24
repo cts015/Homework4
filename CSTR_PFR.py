@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Function to calculate reactor volumes
+# Functions to calculate reactor volumes
 def cstr_volume(F, k, X):
     """Calculate CSTR volume"""
     if X == 1:
